@@ -1,0 +1,50 @@
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background-color: #6f12e9;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-btn {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #161a2b;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+
+.edit-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #161a2b;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.edit-btn {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #161a2b;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
